@@ -1,0 +1,15 @@
+@media screen{
+	/* Biblioteca */
+	#bibliotecaContent{display:table-cell;width:200px;height:100%;overflow:hidden;vertical-align:top;behavior:url(pie.htc);}
+	#bibliotecaGrid{display:block;width:100%;overflow-x:hidden;overflow-y:scroll;}
+
+	/* Filtro */
+	#filtroDiv{display:block;width:200px;height:32px;overflow:hidden;color:#fff;background-color:#464646;font-size:11px;font-family:Arial,Helvetica,San-Serif,Sans;behavior:url(pie.htc);border-bottom:1px solid #000;}
+	#filtroText{display:inline-block;width:100px;height:18px;margin-left:10px;margin-top:8px;text-align:center;border-radius:7px;behavior:url(pie.htc);}
+	#filtroSubmit{display:inline-block;width:20px;height:16px;line-height:16px;margin-left:10px;margin-top:8px;color:#fff;background-color:#979797;text-align:center;text-decoration:none;font-weight:bold;padding:1px;border-radius:7px;behavior:url(pie.htc);}
+
+	/* Miniaturas */
+	#miniaturaDiv{display:table;width:180px;height:100px;border-bottom:1px solid #333;vertical-align:top;behavior:url(pie.htc);}
+	#miniaturaImg{display:table-cell;width:60px;height:100px;vertical-align:top;border:0;behavior:url(pie.htc);}
+	#miniaturaName{display:table-cell;width:120px;height:100px;color:#fff;vertical-align:middle;text-align:center;text-decoration:none;font-family:Arial,Helvetica,Sans-Serif,Sans;font-size:12px;behavior:url(pie.htc);}
+}

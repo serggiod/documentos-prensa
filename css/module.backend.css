@@ -1,0 +1,46 @@
+@media screen{
+	/* BACKEND */
+	#backend{display:none;width:100%;height:100%;z-index:500;position:fixed;top:0;left:0;color:#6ad3d3;background-color:rgba(0,0,0,0.5);text-align:center;font-family:CaviarDreams;overflow:scroll;behavior:url(pie.htc);}
+	#backenddisplay{display:block;width:auto;background-color:#d1d1d1;margin:20px;padding:20px;border-radius:20px;box-shadow: 5px 5px 5px rgba(0,0,0,0.5);behavior:url(pie.htc);}
+
+	/* FORMULARIO en General */
+	.widthAuto{width:auto;text-align:center;}
+	.width300{width:300px;text-align:center;}
+	.width200{width:200px;text-align:center;}
+	.width120{width:120px;text-align:center;}
+	.width100{width:100px;text-align:center;}
+	.width80{width:80px;text-align:center;}
+	.width30{width:30px;text-align:center;}
+	#formTitle{display:block;font-family:CaviarDreamsBold;font-size:16px;text-align:left;color:#FFF;background-color:#444A4F;padding:5px 0 5px 60px;border-bottom:4px solid #999;}
+	#formToolbar{display:block;width:100%;padding-top:5px;background-color:#373B3F;overflow:hidden;text-align:left;behavior:url(pie.htc);}
+	#formPager{display:block;width:auto;height:22px;background-color:#29A6B8;overflow:hidden;text-align:center;behavior:url(pie.htc);}
+	#formGrid{display:block;width:auto;border:1px solid #999;background-color:#666;overflow:hidden;}
+	#formFont{display:inline-block;width:300px;height:22px;color:#fff;font-family:CaviarDreams;font-size:13px;text-align:center;behavior:url(pie.htc);}
+	#formButton{display:inline-block;margin:0 2px 0 3px;padding:5px 15px 3px 15px;color:#fff;background-color:#515254;font-family:CaviarDreamsBold;font-size:13px;text-decoration:none;text-align:center;border-radius:10px 10px 0 0;behavior:url(pie.htc);}
+	#formButton:hover{color:#333;font-weight:bold;background-color:#999;}
+
+	#buttonSubmit,#buttonCancel{display:block;width:150px;color:#fff;padding:5px 0 5px 0;textalign:center;border-radius:5px;font-weight:bold;font-family:CaviarDreams;font-size:12px;text-align:center;text-decoration:none;position:relative;float:right;behavior:url(pie.htc);}
+	#buttonSubmit{background-color:#4F8A10;}
+	#buttonCancel{background-color:#CC2A32;}
+
+	#celH{display:table;color:#fff;background-color:#333;width:100%;height:24px;font-family:CaviarDreams;font-size:14px;font-weight:bold;overflow:hidden;behavior:url(pie.htc)}
+	#celh{display:table-cell;line-height:24px;overflow:hidden;behavior:url(pie.htc);}
+	#celR{display:table;color:#fff;width:100%;height:24px;overflow:hidden;border-bottom:1px solid #999;font-family:CaviarDreams;font-size:13px;font-weight:normal;behavior:url(pie.htc)}
+	#celr{display:table-cell;height:24px;line-height:24px;overflow:hidden;behavior:url(pie.htc);}
+	#celR:nth-child(2n){background-color:#787878;}
+	#celR:hover{color:#000;background-color:#CECECE;}
+	#celr:hover{cursor:pointer;}
+
+	/* FORMULARIO LOGIN */
+	#loginForm {display:block;width:auto;background-color:#fff;border-radius: 0 0 10px 10px;text-align:left;padding:30px;behavior:url(pie.htc);}
+	#lblLogin,#lblPasswd {display:inline-block;color:#333;width:90px;font-family:CaviarDreams;font-size:14px;}
+	#txtLogin,#txtPasswd {display:inline-block;color:#333;width:150px;font-family:CaviarDreams;font-size:14px;border:1px solid #999;border-radius:7px;margin-bottom:10px;text-align:center;behavior:url(pie.htc);}
+	#loginSubmit {display:block;width:150px;color:#fff;background-color:#0790b7;font-family:CaviarDreamsBold;font-size:14px;border:1px solid #999;text-decoration:none;text-align:center;border-radius:7px;behavior:url(pie.htc);}
+
+	/* FORMULARIO: formNuevo*/
+	#formulario{display:block;width:40%;border:0;margin:0 auto 0 auto;padding:20px;border-radius:10px;behavior:url(pie.htc);}
+	#formNuevoIfr{width:0;height:0;}
+	#fnlabel{display:block;width:100%;color:#fff;background-color:#666;font-family:CaviarDreams;text-align:left;}
+	#id,#name,#description,#keyword,#author,#editor,#publish,#pages,#type,#file,#formato,#status
+	{display:block;width:100%;height:22px;color:#000;background-color:#E0E0E0;margin-bottom:10px;font-family:CaviarDreams;}
+	#description{height:60px;}
